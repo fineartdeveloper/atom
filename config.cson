@@ -1,0 +1,365 @@
+"*":
+  "advanced-open-file":
+    fuzzyMatch: true
+    helmDirSwitch: true
+  "atom-autocomplete-php":
+    binPhp: "/usr/local/opt/php@8.0/bin/php"
+  "atom-beautify":
+    blade:
+      brace_style: "end-expand"
+      inline: [
+        "a"
+        "abbr"
+        "area"
+        "audio"
+        "b"
+        "bdi"
+        "bdo"
+        "br"
+        "button"
+        "canvas"
+        "cite"
+        "code"
+        "data"
+        "datalist"
+        "del"
+        "dfn"
+        "em"
+        "embed"
+        "i"
+        "iframe"
+        "img"
+        "input"
+        "ins"
+        "kbd"
+        "keygen"
+        "label"
+        "map"
+        "mark"
+        "math"
+        "meter"
+        "noscript"
+        "object"
+        "output"
+        "progress"
+        "q"
+        "ruby"
+        "s"
+        "samp"
+        "small"
+        "span"
+        "strong"
+        "sub"
+        "sup"
+        "svg"
+        "template"
+        "textarea"
+        "time"
+        "u"
+        "var"
+        "video"
+        "wbr"
+        "text"
+        "acronym"
+        "address"
+        "big"
+        "dt"
+        "ins"
+        "strike"
+        "tt"
+      ]
+      wrap_line_length: 0
+    coffeescript: {}
+    css:
+      selector_separator_newline: true
+    general:
+      beautifyEntireFileOnSave: false
+      loggerLevel: "debug"
+      muteUnsupportedLanguageErrors: true
+    html:
+      brace_style: "end-expand"
+      inline: [
+        "a"
+        "abbr"
+        "area"
+        "audio"
+        "b"
+        "bdi"
+        "bdo"
+        "br"
+        "button"
+        "canvas"
+        "cite"
+        "code"
+        "data"
+        "datalist"
+        "del"
+        "dfn"
+        "em"
+        "embed"
+        "i"
+        "iframe"
+        "img"
+        "input"
+        "ins"
+        "kbd"
+        "keygen"
+        "label"
+        "map"
+        "mark"
+        "math"
+        "meter"
+        "noscript"
+        "object"
+        "output"
+        "progress"
+        "q"
+        "ruby"
+        "s"
+        "samp"
+        "small"
+        "span"
+        "strong"
+        "sub"
+        "sup"
+        "svg"
+        "template"
+        "textarea"
+        "time"
+        "u"
+        "var"
+        "video"
+        "wbr"
+        "text"
+        "acronym"
+        "address"
+        "big"
+        "dt"
+        "ins"
+        "strike"
+        "tt"
+      ]
+      wrap_line_length: 0
+    js:
+      brace_style: "end-expand"
+      end_with_comma: true
+      space_after_anon_function: true
+      space_in_paren: true
+    json:
+      space_after_anon_function: true
+      space_in_paren: true
+  "atom-minify":
+    cssMinifier: "clean-css"
+    jsMinifier: "Google Closure Compiler"
+  "atom-ternjs":
+    inlineFnCompletion: false
+    snippetsFirst: true
+    useSnippets: true
+    useSnippetsAndFunction: true
+  "atom-typescript":
+    ignoreUnusedSuggestionDiagnostics: true
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    enableExtendedUnicodeSupport: true
+    minimumWordLength: 1
+  core:
+    allowPendingPaneItems: false
+    audioBeep: false
+    automaticallyUpdate: false
+    disabledPackages: [
+      "atom-ide-base"
+      "atom-ide-code-format"
+      "atom-ide-datatip"
+      "atom-ide-definitions"
+      "atom-ide-hyperclick"
+      "atom-ide-javascript"
+      "atom-ide-markdown-service"
+      "atom-ide-outline"
+      "atom-ide-signature-help"
+      "atom-ide-ui"
+      "atom-ternjs"
+      "atom-typescript"
+      "autocomplete-bash-builtins"
+      "autocomplete-module-import"
+      "autocomplete-sql"
+      "autosave"
+      "background-tips"
+      "blade-snippets"
+      "css-hyperclick"
+      "css-snippets"
+      "deprecation-cop"
+      "es6-javascript"
+      "exception-reporting"
+      "hyperlink-hyperclick"
+      "ide-css"
+      "ide-flowtype"
+      "ide-html"
+      "ide-json"
+      "js-hyperclick"
+      "language-scss"
+      "laravel-snippets"
+      "lodash-snippets"
+      "metrics"
+      "python-snippets"
+      "Quick-JavaScript"
+      "spell-check"
+      "styleguide"
+      "timecop"
+      "turbo-javascript"
+      "welcome"
+      "linter-php"
+      "autocomplete-php"
+      "atom-autocomplete-php"
+      "linter-ui-default"
+      "remote-sync"
+    ]
+    packagesWithKeymapsDisabled: [
+      "advanced-open-file"
+      "aligner"
+      "archive-view"
+      "ascii-unicode-escape"
+      "atom-autocomplete-php"
+      "atom-beautify"
+      "atom-easy-jsdoc"
+      "atom-ide-datatip"
+      "atom-ide-definitions"
+      "atom-ide-hyperclick"
+      "atom-ide-outline"
+      "atom-ide-signature-help"
+      "atom-js-console"
+      "atom-line-to-console"
+      "atom-minify"
+      "atom-ternjs"
+      "atom-typescript"
+      "autocomplete-javascript"
+      "autoflow"
+      "bracket-matcher"
+      "browser-plus"
+      "change-case"
+      "chrome-color-picker"
+      "color-picker"
+      "dev-live-reload"
+      "duplicate-removal"
+      "emmet"
+      "encoding-selector"
+      "es6-javascript"
+      "escape-to-javascript-string"
+      "escape-utils"
+      "expand-selection-to-quotes"
+      "fuzzy-finder"
+      "git-diff"
+      "git-history"
+      "git-plus"
+      "github"
+      "grammar-selector"
+      "hyperclick"
+      "image-view"
+      "intentions"
+      "keybinding-resolver"
+      "link"
+      "markdown-preview"
+      "open-on-github"
+      "php-integrator-refactoring"
+      "prettier-atom"
+      "preview-plus"
+      "project-manager"
+      "pymakr"
+      "quick-query"
+      "repl-console"
+      "sass-autocompile"
+      "script"
+      "sequential-number"
+      "server-script"
+      "sort-lines"
+      "spell-check"
+      "split-diff"
+      "styleguide"
+      "symbols-list"
+      "toggle-quotes"
+      "tool-bar"
+      "tree-view"
+      "turbo-javascript"
+      "typescript-modules-helper"
+      "select-text"
+      "laravel-helper"
+      "wordpress-autocomplete"
+      "atom-html-preview"
+      "remote-ftp"
+      "ftp-remote-edit-plus"
+    ]
+    restorePreviousWindowsOnStart: "always"
+    simpleFullScreenWindows: true
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "one-dark-vivid-syntax"
+    ]
+    titleBar: "custom"
+    uriHandlerRegistration: "always"
+  editor:
+    fontFamily: "Menlo, Prompt, MaterialDesignIcons, master-icons, monospace"
+    maxScreenLineLength: 4096
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "76b45aae-d46b-47bd-b54c-7d2b594202dd"
+  "ftp-remote-edit-plus":
+    folders: "cf42ba4a6d161527441de0f55c96e6cba563f2ec8c3cedb38050f441526deb64"
+    password: "c249f2486a62172e"
+    servers: "cf42ba4566584b731a1db4b65f86a89da521b5f5cd37e7fdde17b4515561a7016282ba57e902d496bbef89867b70539a046fb135012b5984426b87716a24dff8cbed82567dfa4754cd65efaa084b4828303bd418d28e9bdd966d575c701ed506d28cba4c5394f79cfe81a5abcee9949a9b0bae5696467c0b31b78d59cc34ddb91b553fb5057717b51d0aacd38efb266dffabff1c39889302616f5836456bafa64de41e5656598169a2c1758c74dd1225876bb43aa2d61525c0fc6975dadcb63bafe100deebe4ee58b09ee0f5529fd63be5c5cea3af6329037de5b0735e0877fa12908cc58f8d4e8c4ac728"
+    tree:
+      showHiddenFiles: true
+      toggleOnStartup: true
+  github:
+    remoteFetchProtocol: "ssh"
+  hyperclick:
+    darwinTriggerKeys: "altKey"
+    linuxTriggerKeys: "altKey"
+    win32TriggerKeys: "altKey"
+  "linter-ui-default":
+    largeFileLineCount: 50000
+    longLineLength: 20000
+    panelHeight: 300
+  "markdown-preview-enhanced":
+    openPreviewPaneAutomatically: false
+  "one-dark-ui":
+    hideDockButtons: true
+    stickyHeaders: false
+  "project-manager":
+    sortBy: "title"
+  "remote-ftp":
+    connector:
+      autoUploadOnSave: "never"
+    dev:
+      debugResponse: true
+    notifications:
+      enableTransfer: true
+      enableWatchFileChange: true
+    statusbar:
+      position: "right"
+  "remote-sync":
+    autoHideLogPanel: true
+    foldLogPanel: true
+  "sass-autocompile":
+    compileOnSave: false
+    showAdditionalCompilationInfo: false
+  tabs:
+    displayMruTabList: false
+    enableMruTabSwitching: false
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+".css.scss.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-"
+".html.php.text":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#%^&*|+=[]{}`?-"

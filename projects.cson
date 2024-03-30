@@ -1,0 +1,377 @@
+[
+  {
+    title: ".atom"
+    group: "Atom"
+    paths: [
+      "~/.atom"
+    ]
+  }
+  {
+    title: ".atom-dev"
+    group: "Atom"
+    paths: [
+      "/Volumes/Storage/Projects/atom-dev"
+    ]
+  }
+  {
+    title: "Projects"
+    group: "Projects"
+    paths: [
+      "/Volumes/Storage/Projects"
+    ]
+  }
+  {
+    title: "dotzsh"
+    group: "Dotzsh"
+    paths: [
+      "/Volumes/Storage/Projects/dotzsh"
+      "/Volumes/Storage/Projects/others/cliclick"
+      "/Volumes/Storage/Projects/others/applescripts/Launch Google Chrome Canary.app"
+    ]
+  }
+  {
+    title: "lodash"
+    group: "CommandLine"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/lodash"
+    ]
+  }
+  {
+    title: "awesome-module"
+    group: "NPM Package"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/awesome-module"
+    ]
+  }
+  {
+    title: "read-sitemap-xml"
+    group: "NPM Package"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/read-sitemap-xml"
+    ]
+  }
+  {
+    title: "github"
+    group: "Github"
+    paths: [
+      "/Volumes/Storage/Projects/github"
+    ]
+  }
+  {
+    title: "happymishra__JavaScriptTutorials"
+    group: "Github"
+    paths: [
+      "/Volumes/Storage/Projects/github/happymishra__JavaScriptTutorials"
+    ]
+  }
+  {
+    title: "atom-extended"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/atom-extended"
+    ]
+  }
+  {
+    title: "chromeawesome"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/chromeawesome"
+    ]
+  }
+  {
+    title: "chrome-extended"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/chrome-extended"
+    ]
+  }
+  {
+    title: "atom-awesome"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/atom-awesome"
+    ]
+  }
+  {
+    title: "atom-awesome-utils"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/atom-awesome-utils"
+    ]
+  }
+  {
+    title: "chrome-snippets"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/chrome-snippets"
+    ]
+  }
+  {
+    title: "others/firefox/goldfish"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/others/firefox/goldfish"
+    ]
+  }
+  {
+    title: "awesome-atom"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/awesome-atom"
+    ]
+  }
+  {
+    title: "NPM Packages"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages"
+    ]
+  }
+  {
+    title: "reproduction-galleries.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/reproduction-galleries.com"
+    ]
+  }
+  {
+    title: "wp.reproduction-galleries.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/reproduction-galleries.com/wp.reproduction-galleries.com"
+    ]
+  }
+  {
+    title: "reproduction-gallery.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/reproduction-gallery.com"
+    ]
+  }
+  {
+    title: "dashboard.reproduction-gallery.com/admin"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/reproduction-gallery.local/quick3"
+    ]
+  }
+  {
+    title: "www.little-coconut.de"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.little-coconut.de"
+    ]
+  }
+  {
+    title: "staging3.reproduction-studio.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/staging3.reproduction-studio.com"
+    ]
+  }
+  {
+    title: "s3.reproduction-studio.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/s3.reproduction-studio.com"
+    ]
+  }
+  {
+    title: "s3.midone.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/s3.midone.local"
+    ]
+  }
+  {
+    title: "s3.rise.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/s3.rise.local"
+    ]
+  }
+  {
+    title: "nest.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/nest.local"
+    ]
+  }
+  {
+    title: "laravel.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/laravel.local"
+    ]
+  }
+  {
+    title: "orchid.laravel.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/orchid.laravel.local"
+    ]
+  }
+  {
+    title: "admin2.laravel.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/admin2.laravel.local"
+    ]
+  }
+  {
+    title: "la.โต๊ะจีนชลบุรี.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/la.โต๊ะจีนชลบุรี.com"
+    ]
+  }
+  {
+    title: "woocommerce.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/woocommerce.local"
+    ]
+  }
+  {
+    title: "seoyourwebnow.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/seoyourwebnow.com"
+    ]
+  }
+  {
+    title: "new.reproduction-galleries.local/new"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/new.reproduction-galleries.local/new"
+    ]
+  }
+  {
+    title: "reservation.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/reservation.local"
+    ]
+  }
+  {
+    title: "reservation2.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/reservation2.local"
+    ]
+  }
+  {
+    title: "stocky.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/stocky.local"
+    ]
+  }
+  {
+    title: "thaicameragirl.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/thaicameragirl.com"
+    ]
+  }
+  {
+    title: "lovepotasia.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/lovepotasia.com"
+    ]
+  }
+  {
+    title: "phlox.woocommerce.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/phlox.woocommerce.local"
+    ]
+  }
+  {
+    title: "ss3.universalthailand.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/sevenseas2"
+    ]
+  }
+  {
+    title: "www.simply-posters.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.simply-posters.local"
+    ]
+  }
+  {
+    title: "topthairealestate.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/topthairealestate.com"
+    ]
+  }
+  {
+    title: "www.topthaiestateagent.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.topthaiestateagent.com"
+    ]
+  }
+  {
+    title: "www.devilsdenthailand.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.devilsdenthailand.com"
+    ]
+  }
+  {
+    title: "miranda.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/miranda.local"
+    ]
+  }
+  {
+    title: "corcel.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/corcel.local"
+    ]
+  }
+  {
+    title: "wordpress.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/wordpress.local"
+    ]
+  }
+  {
+    title: "rimtalay-resort.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/rimtalay-resort.com"
+    ]
+  }
+  {
+    title: "silaroamproperties.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/silaroamproperties.com"
+    ]
+  }
+  {
+    title: "demo.silaroamproperties.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/demo.silaroamproperties.com/html"
+    ]
+  }
+  {
+    title: "applescript"
+    group: "AppleScript"
+    paths: [
+      "/Volumes/Storage/Projects/github/applescript"
+    ]
+    icon: "icon-apple"
+    color: "#5ae991"
+  }
+]

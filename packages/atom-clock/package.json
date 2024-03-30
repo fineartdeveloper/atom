@@ -1,0 +1,66 @@
+{
+  "_from": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball",
+  "_id": "atom-clock@0.1.18",
+  "_inBundle": false,
+  "_integrity": "sha512-2Di6/VfYoRcC12TQBpUxKNbAcHGNadH0T7M2MaHmdjTvO1QbtPs4ArCgqgL0xblOhnz8OdNI630rPXCJiptMbw==",
+  "_location": "/atom-clock",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball",
+    "rawSpec": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball",
+    "saveSpec": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball",
+    "fetchSpec": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball",
+  "_shasum": "ed9ac36776b3642951b0d8b14a8a4fff860a953a",
+  "_spec": "https://api.pulsar-edit.dev/api/packages/atom-clock/versions/0.1.18/tarball",
+  "_where": "/private/tmp/apm-install-dir-202403-23398-cwa3ex.a8knk",
+  "author": {
+    "name": "Antonio Bevilacqua",
+    "email": "b3by.in.th3.sky@gmail.com",
+    "url": "https://github.com/b3by"
+  },
+  "bugs": {
+    "url": "https://github.com/b3by/atom-clock/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "moment": "^2.24.x"
+  },
+  "deprecated": false,
+  "description": "Display a customizable clock in the status bar.",
+  "devDependencies": {
+    "mockdate": "^2.0.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/b3by/atom-clock#readme",
+  "keywords": [
+    "clock",
+    "time",
+    "date",
+    "statusbar",
+    "momentjs"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-clock",
+  "name": "atom-clock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3by/atom-clock.git"
+  },
+  "version": "0.1.18"
+}

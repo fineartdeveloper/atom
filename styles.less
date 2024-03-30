@@ -1,0 +1,182 @@
+@import "syntax-variables.less";
+@import "ui-variables.less";
+
+@import "./styles/fonts.less";
+@import "./styles/variables.less";
+@import "./styles/mixins.less";
+
+/*
+* Your Stylesheet
+*
+* This stylesheet is loaded when Atom starts up and is reloaded automatically
+* when it is changed and saved.
+*
+* Add your own CSS or Less to fully customize Atom.
+* If you are unfamiliar with Less, you can read more about it here:
+* http://lesscss.org
+*/
+
+
+/*
+* Examples
+* (To see them, uncomment and save)
+*/
+
+// style the background color of the toolbar
+.tool-bar {
+  button,
+  button.tool-bar-btn,
+  .tool-bar-btn,
+  .btn {
+    .font-reset();
+    .font-icons();
+
+    i {
+      .font-reset();
+      .font-icons();
+    }
+  }
+}
+
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // -moz-font-smoothing: grayscale;
+  // -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
+  // font-style: normal;
+  // font-kerning: none;
+  // letter-spacing: 0;
+  // text-rendering: optimizeLegibility;
+
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// style UI elements inside atom-text-editor
+atom-text-editor {
+  .cursor {
+    border-color: lime;
+  }
+
+  .bracket-matcher .region {
+    border-color: lime;
+  }
+}
+
+
+// atom-workspace {
+//   atom-pane {
+//     .tab-bar[is="atom-tabs"] {
+//
+//       .tab[is="tabs-tab"] {
+//
+//         .title {
+//           padding-right: 2em;
+//           overflow: visible;
+//         }
+//
+//         .close-icon {
+//           // margin-left: 1em;
+//           // left: auto;
+//           // right: 0em;
+//         }
+//
+//       }
+//
+//     }
+//   }
+// }
+
+
+.status-bar {
+  .status-bar-left {
+    background-color: @hue-6-2;
+  }
+
+  .status-bar-right {
+    background-color: shade(tint(@syntax-fg, -50), 50);
+
+    > *,
+    > * > * {
+      a,
+      button {
+        cursor: pointer !important;
+      }
+
+      a,
+      a:hover,
+      button,
+      button:hover,
+      &:hover {
+        color: shade(tint(#fff, -100), 20);
+        background-color: shade(tint(@syntax-fg, -50), 50);
+      }
+    }
+  }
+
+  .file-info {
+    // background-color: @hue-4;
+    line-height: normal;
+    box-sizing: border-box !important;
+    vertical-align: middle;
+
+    &::after {
+      color: tint(@hue-5, -20);
+      font-weight: 600;
+      padding-left: 0.3em;
+    }
+
+    .current-path {
+      color: shade(tint(@hue-6-2, -50), 50);
+      font-weight: 600;
+    }
+  }
+
+  .selection-count,
+  .cursor-position {
+    // background-color: @hue-6-2;
+    color: shade(tint(@hue-6-2, 100), -100);
+    background-color: shade(tint(@hue-6-2, -50), 50);
+    line-height: normal;
+    box-sizing: border-box !important;
+    vertical-align: middle;
+
+    a {
+      color: shade(tint(@hue-6-2, 100), -100);
+      line-height: normal;
+      box-sizing: border-box !important;
+      vertical-align: middle;
+    }
+
+    * {
+      color: shade(tint(@hue-6-2, -50), 50);
+      font-weight: 600;
+    }
+  }
+
+  .cursor-position {
+    padding: 0.25em 0.4em !important;
+    margin-left: 0em !important;
+    border-radius: 0.3em 0.3em !important;
+  }
+
+  .selection-count {
+    padding: 0.25em 0.4em !important;
+    margin-left: 0.2em !important;
+    border-radius: 0.3em 0.3em !important;
+    color: shade(tint(@hue-4, 100), -100);
+    background-color: shade(tint(@hue-4, -50), 50);
+  }
+}
+
+.atom-clock,
+.line-ending-tile,
+.github-StatusBarTile {
+  display: none;
+}
