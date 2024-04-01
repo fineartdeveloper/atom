@@ -375,6 +375,7 @@
       "process-palette"
       "wordpress-autocomplete"
       "url-encode"
+      "remote-ftp"
     ]
     packagesWithSnippetsDisabled: [
       "advanced-open-file"
@@ -546,6 +547,14 @@
     prettifyTitle: false
     showPath: false
     sortBy: "title"
+  "remote-ftp":
+    connector:
+      autoUploadOnSave: "never"
+    context:
+      enableCopyFilename: false
+    notifications: {}
+    tree:
+      showViewOnStartup: false
   "remote-sync":
     autoHideLogPanel: true
     foldLogPanel: true

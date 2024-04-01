@@ -177,6 +177,10 @@
     # "cmd-o": "advanced-open-file:toggle"
     "ctrl-alt-cmd-c": "repl-console:run"
     "alt-cmd-t": "unset!"
+
+    "ctrl-alt-cmd-/": "remote-ftp:toggle"
+    "alt-cmd-/": "remote-ftp:connect"
+    "ctrl-cmd-/": "remote-ftp:disconnect"
   }
   ".advanced-open-file atom-text-editor": {
     "tab": "advanced-open-file:autocomplete"
@@ -289,8 +293,12 @@
     "alt-cmd-c": "editor:copy-path"
     "tab": "snippets:next-tab-stop"
     "shift-tab": "snippets:previous-tab-stop"
-    "shift-f11": "remote-sync:upload-file"
-    "f11": "remote-sync:download-file"
+    # "ctrl-alt-cmd-/": "remote-ftp:connect"
+    # "ctrl-cmd-/": "remote-ftp:toggle"
+    # "shift-f11": "remote-ftp:upload-active"
+    # "f11": "remote-ftp:download-active"
+    # # "shift-f11": "remote-sync:upload-file"
+    # # "f11": "remote-sync:download-file"
     "ctrl-cmd-enter": "tree-view:rename"
     "alt-cmd-s": "sass-autocompile:compile-to-file"
     "alt-cmd-tab": "editor:auto-indent"
@@ -326,7 +334,6 @@
     "cmd-.": "bracket-matcher:select-inside-brackets"
   }
   "atom-text-editor": {
-    "ctrl-alt-cmd-.": "remote-sync:monitor-file"
     "alt-cmd-a": "aligner:align"
     "alt-cmd-g": "find-and-replace:find-next-selected"
     "alt-cmd-p": "unset!"
@@ -368,5 +375,8 @@
     # "ctrl-enter": "es6-javascript:end-new-line"
     "ctrl-space": "unset!"
     "shift-tab": "snippets:previous-tab-stop"
+
+    "shift-f11": "remote-ftp:upload-active"
+    "f11": "remote-ftp:download-active"
   }
 }
