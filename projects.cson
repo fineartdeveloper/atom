@@ -179,6 +179,13 @@
     ]
   }
   {
+    title: "demo.slrp.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/demo.slrp.local"
+    ]
+  }
+  {
     title: "wordpress.local"
     group: "WWW"
     paths: [

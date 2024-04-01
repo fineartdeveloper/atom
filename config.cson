@@ -277,7 +277,6 @@
     debugLSP: false
     disabledPackages: [
       "language-scss"
-      "language-scss"
       "spell-check"
       "lodash-snippets"
       "atom-ternjs"
@@ -552,7 +551,7 @@
     foldLogPanel: true
     monitorFileAnimation: false
   "sass-autocompile":
-    autoHidePanelDelay: 10000
+    autoHidePanelDelay: 200
     compileCompressed: false
     compileExpanded: true
     compileOnSave: false
