@@ -212,6 +212,10 @@
       "atom-autocomplete-php"
       "linter-ui-default"
       "remote-sync"
+      "aligner"
+      "aligner-javascript"
+      "atom-clock"
+      "busy-signal"
     ]
     packagesWithKeymapsDisabled: [
       "advanced-open-file"
@@ -333,13 +337,19 @@
   "remote-ftp":
     connector:
       autoUploadOnSave: "never"
+    context:
+      enableCopyFilename: false
     dev:
-      debugResponse: true
+      debugResponse: false
     notifications:
-      enableTransfer: true
-      enableWatchFileChange: true
+      enableTransfer: false
+      enableWatchFileChange: false
     statusbar:
+      enable: true
       position: "right"
+    tree:
+      enableDragAndDrop: false
+      showViewOnStartup: false
   "remote-sync":
     autoHideLogPanel: true
     foldLogPanel: true

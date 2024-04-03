@@ -165,13 +165,44 @@ module.exports = [
     {
         type: 'button',
         callback: {
-            '': 'remote-sync:configure',
+            '': 'remote-ftp:toggle',
+            // 'shift': 'remote-sync:upload-file',
         },
-        tooltip: 'Remote Sync: Config',
-        text: '<i>󰌘</i>',
+        tooltip: 'FTP',
+        text: '<i>󱚝</i>',
         html: true,
         class: ['mdi', 'bg-warning', 'fg-dark'],
+        show: {
+            function: () => {
+              var entries = atom.project.rootDirectories || [];
+              entries = (typeof entries !== 'undefined' && entries.length) ? entries[0].getEntriesSync() : undefined;
+              if (typeof entries !== 'undefined' && entries.length) {
+                var filtered = entries.filter((item, i) => {
+                  if (item.getBaseName().toLowerCase() === '.ftpconfig') {
+                    return true;
+                  }
+                  return false;
+                });
+
+                if (filtered.length) {
+                  return true;
+                }
+              }
+              return false;
+            },
+        },
+        class: ['mdi'],
     },
+    // {
+    //     type: 'button',
+    //     callback: {
+    //         '': 'remote-sync:configure',
+    //     },
+    //     tooltip: 'Remote Sync: Config',
+    //     text: '<i>󰌘</i>',
+    //     html: true,
+    //     class: ['mdi', 'bg-warning', 'fg-dark'],
+    // },
     { type: 'spacer' },
     {
         type: 'url',

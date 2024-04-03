@@ -449,7 +449,7 @@
 
   ".source.php, .text.html.php .source.php": {
     "var_dump": {
-      "prefix": "vard",
+      "prefix": "v",
       "body": """
       var_dump(${1:...})$0
       """,
