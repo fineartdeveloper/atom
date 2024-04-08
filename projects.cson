@@ -186,6 +186,20 @@
     ]
   }
   {
+    title: "demo"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/demo"
+    ]
+  }
+  {
+    title: "awesome-seo"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/Projects/github/awesome-seo"
+    ]
+  }
+  {
     title: "wordpress.local"
     group: "WWW"
     paths: [

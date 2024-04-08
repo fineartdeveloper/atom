@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/fineart/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/fineart/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   '--target=9.4.4',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v12.14.1
+4 verbose npm-session 802c2cc80463aa53
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall tidy-markdown@3.0.1
+7 info lifecycle tidy-markdown@3.0.1~preinstall: tidy-markdown@3.0.1
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 11ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly pacote Retrying git command: ls-remote -h -t git://github.com/slang800/tidy-markdown.git attempt # 2
+18 silly pacote Retrying git command: ls-remote -h -t git://github.com/slang800/tidy-markdown.git attempt # 3
+19 silly fetchPackageMetaData error for tidy-markdown@git://github.com/slang800/tidy-markdown.git#v2.0.3 Error while executing:
+19 silly fetchPackageMetaData /usr/bin/git ls-remote -h -t git://github.com/slang800/tidy-markdown.git
+19 silly fetchPackageMetaData
+19 silly fetchPackageMetaData fatal: unable to connect to github.com:
+19 silly fetchPackageMetaData github.com[0: 20.205.243.166]: errno=Operation timed out
+19 silly fetchPackageMetaData
+19 silly fetchPackageMetaData
+19 silly fetchPackageMetaData exited with error code: 128
+20 timing stage:rollbackFailedOptional Completed in 0ms
+21 timing stage:runTopLevelLifecycles Completed in 35408ms
+22 silly saveTree tidy-markdown@3.0.1
+23 verbose stack Error: exited with error code: 128
+23 verbose stack     at ChildProcess.<anonymous> (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/pacote/lib/util/finished.js:12:19)
+23 verbose stack     at ChildProcess.emit (events.js:223:5)
+23 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+23 verbose stack     at Socket.<anonymous> (internal/child_process.js:430:11)
+23 verbose stack     at Socket.emit (events.js:223:5)
+23 verbose stack     at Pipe.<anonymous> (net.js:664:12)
+24 verbose cwd /Volumes/Storage/Projects/github/notslang__atom-tidy-markdown
+25 verbose Darwin 17.7.0
+26 verbose argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/fineart/.atom/.apm/.apmrc" "--userconfig" "/Users/fineart/.atom/.apmrc" "install" "--target=9.4.4" "--disturl=https://atom.io/download/electron" "--arch=x64"
+27 verbose node v12.14.1
+28 verbose npm  v6.14.13
+29 error Error while executing:
+29 error /usr/bin/git ls-remote -h -t git://github.com/slang800/tidy-markdown.git
+29 error
+29 error fatal: unable to connect to github.com:
+29 error github.com[0: 20.205.243.166]: errno=Operation timed out
+29 error
+29 error
+29 error exited with error code: 128
+30 verbose exit [ 1, true ]

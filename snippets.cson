@@ -412,6 +412,13 @@
 
 
   ".source.php, .text.html.php .source.php": {
+    "$arr[$key]": {
+      "prefix": "$$",
+      "body": """
+      \$${1:arr}[${2:'${3:key}'}]$0
+      """,
+    },
+
     "public function": {
       "prefix": "pf",
       "body": """

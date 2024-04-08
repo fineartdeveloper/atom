@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/bin/node',
+1 verbose cli   '/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/Users/fineart/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/Users/fineart/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   '--target=9.4.4',
+1 verbose cli   '--disturl=https://atom.io/download/electron',
+1 verbose cli   '--arch=x64'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v12.14.1
+4 verbose npm-session 5789a69321293a0b
+5 silly install runPreinstallTopLevelLifecycles
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 timing stage:rollbackFailedOptional Completed in 3ms
+9 timing stage:runTopLevelLifecycles Completed in 13ms
+10 verbose stack Error: Failed to parse json
+10 verbose stack Unexpected token } in JSON at position 339 while parsing near '...default": true,
+10 verbose stack     }
+10 verbose stack   },
+10 verbose stack   "dependenci...'
+10 verbose stack     at parseError (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/read-package-json/read-json.js:470:11)
+10 verbose stack     at parseJson (/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/read-package-json/read-json.js:105:26)
+10 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/read-package-json/read-json.js:52:5
+10 verbose stack     at /Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:123:16
+10 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)
+11 verbose cwd /Volumes/Storage/Projects/github/notslang__atom-tidy-markdown
+12 verbose Darwin 17.7.0
+13 verbose argv "/Applications/Atom.app/Contents/Resources/app/apm/bin/node" "/Applications/Atom.app/Contents/Resources/app/apm/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/Users/fineart/.atom/.apm/.apmrc" "--userconfig" "/Users/fineart/.atom/.apmrc" "install" "--target=9.4.4" "--disturl=https://atom.io/download/electron" "--arch=x64"
+14 verbose node v12.14.1
+15 verbose npm  v6.14.13
+16 error code EJSONPARSE
+17 error file /Volumes/Storage/Projects/github/notslang__atom-tidy-markdown/package.json
+18 error JSON.parse Failed to parse json
+18 error JSON.parse Unexpected token } in JSON at position 339 while parsing near '...default": true,
+18 error JSON.parse     }
+18 error JSON.parse   },
+18 error JSON.parse   "dependenci...'
+19 error JSON.parse Failed to parse package.json data.
+19 error JSON.parse package.json must be actual JSON, not just JavaScript.
+20 verbose exit [ 1, true ]
