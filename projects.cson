@@ -200,6 +200,20 @@
     ]
   }
   {
+    title: "chrome-snippets"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/npm-packages/chrome-snippets"
+    ]
+  }
+  {
+    title: "awesome-docs"
+    group: "NPM"
+    paths: [
+      "/Volumes/Storage/Projects/github/awesome-docs"
+    ]
+  }
+  {
     title: "wordpress.local"
     group: "WWW"
     paths: [

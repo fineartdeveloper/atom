@@ -580,6 +580,8 @@
   tabs:
     displayMruTabList: false
     enableMruTabSwitching: false
+  "tidy-markdown":
+    runOnSave: false
   "tool-bar":
     fullWidth: false
     iconSize: "21px"
