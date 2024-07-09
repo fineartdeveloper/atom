@@ -411,6 +411,15 @@
   },
 
 
+  ".text.html.php .meta.embedded.block.php, .source.php .comment.line.double-slash.php": {
+    "/**/": {
+      "prefix": "//",
+      "body": """
+      \\/* ${1:...} *\\/$0
+      """,
+    },
+  },
+
   ".source.php, .text.html.php .source.php": {
     "$arr[$key]": {
       "prefix": "$$",
@@ -508,6 +517,15 @@
       "body": """
       foreach (${1:\\$variable} as ${2:${3:\\$key}${4: => ${5:\\$value}}}) {
         ${6:}
+      \\}$0
+      """,
+    },
+
+    "for": {
+      "prefix": "for",
+      "body": """
+      for (${1:\\$i = 0}; ${2:\\$i < 1}; ${3:\\$i++}) {
+        ${4:}
       \\}$0
       """,
     },

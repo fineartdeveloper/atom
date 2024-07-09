@@ -200,6 +200,13 @@
     ]
   }
   {
+    title: "awesome-chrome"
+    group: "GITHUB"
+    paths: [
+      "/Volumes/Storage/Projects/github/awesome-chrome"
+    ]
+  }
+  {
     title: "chrome-snippets"
     group: "NPM"
     paths: [
@@ -218,6 +225,13 @@
     group: "WWW"
     paths: [
       "/Volumes/Storage/www/wordpress.local"
+    ]
+  }
+  {
+    title: "www.php.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.php.local"
     ]
   }
 ]

@@ -172,37 +172,52 @@ module.exports = [
         html: true,
         class: ['mdi', 'bg-warning', 'fg-dark'],
     },
-    {
-        type: 'button',
-        callback: {
-            '': 'remote-sync:upload-file',
-        },
-        tooltip: 'Upload File',
-        text: '<i>󰁞</i>',
-        html: true,
-        class: ['mdi', 'bg-orange', 'fg-dark'],
-    },
-    {
-        type: 'button',
-        callback: {
-            '': 'remote-sync:download-file',
-        },
-        tooltip: 'Download File',
-        text: '<i>󰁆</i>',
-        html: true,
-        class: ['mdi', 'bg-orange', 'fg-dark'],
-    },
-    {
-        type: 'button',
-        callback: {
-            '': 'remote-sync:delete-file',
-        },
-        tooltip: 'Delete File',
-        text: '<i>󰁮</i>',
-        html: true,
-        class: ['mdi', 'bg-orange', 'fg-dark'],
-    },
+    // {
+    //     type: 'button',
+    //     callback: {
+    //         '': 'remote-sync:upload-file',
+    //     },
+    //     tooltip: 'Upload File',
+    //     text: '<i>󰁞</i>',
+    //     html: true,
+    //     class: ['mdi', 'bg-orange', 'fg-dark'],
+    // },
+    // {
+    //     type: 'button',
+    //     callback: {
+    //         '': 'remote-sync:download-file',
+    //     },
+    //     tooltip: 'Download File',
+    //     text: '<i>󰁆</i>',
+    //     html: true,
+    //     class: ['mdi', 'bg-orange', 'fg-dark'],
+    // },
+    // {
+    //     type: 'button',
+    //     callback: {
+    //         '': 'remote-sync:delete-file',
+    //     },
+    //     tooltip: 'Delete File',
+    //     text: '<i>󰁮</i>',
+    //     html: true,
+    //     class: ['mdi', 'bg-orange', 'fg-dark'],
+    // },
     // { type: 'spacer' },
+    { type: 'spacer' },
+    {
+        type: 'button',
+        callback: {
+            '': 'change-case:upper',
+            'shift': 'change-case:lower',
+            'alt': 'change-case:title',
+            'alt+shift': 'change-case:kebab',
+        },
+        tooltip: 'Upper, Lower (󰘶󰍽), Title (󰘵󰍽), Kebab (󰘴󰍽)',
+        text: '<i>󰬴</i>',
+        html: true,
+        class: ['mdi', 'bg-orange', 'fg-dark'],
+    },
+    { type: 'spacer' },
     {
         type: 'url',
         url: 'https://github.com/{repo-owner}/{repo-name}',
