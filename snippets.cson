@@ -448,6 +448,13 @@
 
 
   ".source.php, .text.html.php .source.php": {
+    "print_var_dump": {
+      "prefix": "pv",
+      "body": """
+      echo '<pre>'; var_dump(${1:...}); echo '</pre>';$0
+      """,
+    },
+
     "var_dump": {
       "prefix": "v",
       "body": """
@@ -568,7 +575,55 @@
   },
 
 
+  ".source.gfm .table.gfm": {
+    "add table row": {
+      "prefix": "r",
+      "body": """
+      | $1 | $2 |$0
+      """,
+    },
+    "add table column": {
+      "prefix": "c",
+      "body": """
+      \ | $1 $0
+      """,
+    },
+  },
+
+  ".source.gfm .table.gfm .border.pipe.outer": {
+    "add table column": {
+      "prefix": "c",
+      "body": """
+      \ | $1 $0
+      """,
+    },
+  },
+
   ".source.gfm": {
+    "add table": {
+      "prefix": "table",
+      "body": """
+      | ${1:head 1}   | ${2:head 2}   |
+      | -------- | -------- |
+      | ${3:column 1} | ${4:column 2} |
+      $0
+      """,
+    },
+
+    "add link": {
+      "prefix": "a",
+      "body": """
+      [${1:Link 󰌹}](${2:https://google.com})$0
+      """,
+    },
+
+    "add image": {
+      "prefix": "img",
+      "body": """
+      ![${1:alt}](${2:./file.jpg})$0
+      """,
+    },
+
     "markup": {
       "prefix": "`",
       "body": """

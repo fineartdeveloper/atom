@@ -366,6 +366,69 @@
     ]
   }
   {
+    title: "wp.silaroamproperties.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/wp.silaroamproperties.com"
+    ]
+  }
+  {
+    title: "aws.topthairealestate.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/aws.topthairealestate.com"
+    ]
+  }
+  {
+    title: "aws.rimtalay-resort.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/aws.rimtalay-resort.com"
+    ]
+  }
+  {
+    title: "www.hoursly.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.hoursly.local"
+    ]
+  }
+  {
+    title: "www.hotelia.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.hotelia.local"
+    ]
+  }
+  {
+    title: "oregon.topthairealestate.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/oregon.topthairealestate.com"
+    ]
+  }
+  {
+    title: "www.zaiproty.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.zaiproty.local"
+    ]
+  }
+  {
+    title: "www.awebooking.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/www.awebooking.local"
+    ]
+  }
+  {
+    title: "topthairealestate.local"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/topthairealestate.local"
+    ]
+  }
+  {
     title: "applescript"
     group: "AppleScript"
     paths: [
@@ -373,5 +436,26 @@
     ]
     icon: "icon-apple"
     color: "#5ae991"
+  }
+  {
+    title: "awesome-docs"
+    group: "github"
+    paths: [
+      "/Volumes/Storage/Projects/github/awesome-docs"
+    ]
+  }
+  {
+    title: "awesome-chrome"
+    group: "github"
+    paths: [
+      "/Volumes/Storage/Projects/github/awesome-chrome"
+    ]
+  }
+  {
+    title: "awesome-seo"
+    group: "github"
+    paths: [
+      "/Volumes/Storage/Projects/github/awesome-seo"
+    ]
   }
 ]

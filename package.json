@@ -2,6 +2,7 @@
   "dependencies": {
     "fs-extra": "^10.0.0",
     "jquery": "^3.6.0",
+    "jQuery": "^1.7.4",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
     "underscore-plus": "^1.7.0"

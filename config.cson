@@ -211,7 +211,6 @@
       "autocomplete-php"
       "atom-autocomplete-php"
       "linter-ui-default"
-      "remote-sync"
       "aligner"
       "aligner-javascript"
       "atom-clock"
@@ -353,6 +352,7 @@
   "remote-sync":
     autoHideLogPanel: true
     foldLogPanel: true
+    logToConsole: false
   "sass-autocompile":
     compileOnSave: false
     showAdditionalCompilationInfo: false

@@ -180,3 +180,25 @@ atom-text-editor {
 .github-StatusBarTile {
   display: none;
 }
+
+.markdown-preview {
+  font-family: "Menlo", "Prompt", "MaterialDesignIcons", "master-icons", "monospace", "system-ui";
+  line-height: 1.6em;
+
+  code {
+    color: darken(cyan, 40%) !important;
+    background-color: darken(cyan, 5%) !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: tint(#83BCFC, -10%) !important;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: @hue-6-2 !important;
+      // color: lighten(tint(#83BCFC, -30%), 10%) !important;
+    }
+  }
+}
