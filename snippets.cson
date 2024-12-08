@@ -76,6 +76,19 @@
   },
 
 
+  # SCSS
+  ".source.css.scss": {
+    "@each": {
+      "prefix": "each",
+      "body": """
+      @each ${1:\$value} in ${2:\$var} {
+        ${3:}
+      \\}$0
+      """,
+    },
+  },
+
+
   ".source.json": {
     "hold_down": {
       "prefix": "hdown",

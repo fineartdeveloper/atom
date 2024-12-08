@@ -33,6 +33,11 @@
 
 
 {
+  ".platform-darwin, body": {
+    "ctrl-alt-cmd-/": "window:toggle-left-dock"
+    "alt-cmd-/": "window:toggle-right-dock"
+  }
+
   "atom-text-editor:not([mini]).typescript-editor": {
     "escape": "typescript:hide-signature-help"
     "pageup": "typescript:signature-help-prev"
@@ -187,7 +192,7 @@
     "cmd-alt-=": "unset!"
     "cmd-alt--": "unset!"
   }
-  "atom-workspace atom-text-editor:not(.mini)": {
+  "atom-workspace atom-text-editor:not[mini], atom-workspace atom-text-editor:not(.mini)": {
     "ctrl-alt-b": "unset!"
   }
   "atom-text-editor:not([mini])": {
@@ -243,8 +248,8 @@
     "alt-cmd": "datatip:toggle"
     "cmd-r": "symbols-view:toggle-file-symbols"
     "ctrl-shift-o": "link:open"
-    "alt-cmd-down": "unset!"
-    "alt-cmd-up": "unset!"
+    "alt-cmd-up": "editor:move-line-up"
+    "alt-cmd-down": "editor:move-line-down"
   }
   ".platform-darwin": {
     "alt-cmd-r": "tree-view:show-current-file-in-file-manager"
@@ -397,5 +402,6 @@
     "cmd-<": "unset!"
     "alt-cmd-p": "unset!"
     "ctrl-alt-cmd--": "awesome:replace-selection-with-dashes"
+    "ctrl-x": "awesome:cut-line"
   }
 }

@@ -429,6 +429,13 @@
     ]
   }
   {
+    title: "resort.seoyourwebnow.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/resort.seoyourwebnow.com"
+    ]
+  }
+  {
     title: "applescript"
     group: "AppleScript"
     paths: [
