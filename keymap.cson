@@ -243,6 +243,7 @@
     "shift-a": "tree-view:add-folder"
     "d": "tree-view:duplicate"
     "backspace": "tree-view:remove"
+    "ctrl-alt-cmd-=": "git-menu:stage-changes"
   }
   ".platform-darwin atom-text-editor": {
     "alt-cmd": "datatip:toggle"

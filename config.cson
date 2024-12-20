@@ -215,6 +215,15 @@
       "aligner-javascript"
       "atom-clock"
       "busy-signal"
+      "about"
+      "archive-view"
+      "bookmarks"
+      "language-c"
+      "language-csharp"
+      "language-java"
+      "language-toml"
+      "open-on-github"
+      "package-generator"
     ]
     packagesWithKeymapsDisabled: [
       "advanced-open-file"
@@ -316,6 +325,19 @@
     tree:
       showHiddenFiles: true
       toggleOnStartup: true
+  "git-menu":
+    confirmationDialogs:
+      "add-to-last-commit": false
+      "pull-all": false
+      "push-all": false
+      "stage-changes": false
+      "sync-all": false
+      "undo-last-commit": false
+    contextMenuItems:
+      "add-to-last-commit": false
+      "pull-all": false
+      "push-all": false
+      "undo-last-commit": false
   github:
     remoteFetchProtocol: "ssh"
   hyperclick:

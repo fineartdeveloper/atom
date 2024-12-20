@@ -1,10 +1,5 @@
 'use babel';
 
-var consoleOptions = {
-  console: false,
-  alert: false,
-};
-
 import { CompositeDisposable } from 'atom';
 const { exec } = require('child_process');
 var remote = require('remote');

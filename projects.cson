@@ -436,6 +436,20 @@
     ]
   }
   {
+    title: "nuss.topthaiestateagent.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/nuss.topthaiestateagent.com"
+    ]
+  }
+  {
+    title: "demo.seoyourwebnow.com"
+    group: "WWW"
+    paths: [
+      "/Volumes/Storage/www/demo.seoyourwebnow.com"
+    ]
+  }
+  {
     title: "applescript"
     group: "AppleScript"
     paths: [
@@ -463,6 +477,13 @@
     group: "github"
     paths: [
       "/Volumes/Storage/Projects/github/awesome-seo"
+    ]
+  }
+  {
+    title: "crittermike__shortkeys"
+    group: "github"
+    paths: [
+      "/Volumes/Storage/Projects/github/crittermike__shortkeys"
     ]
   }
 ]
