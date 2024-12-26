@@ -4,6 +4,18 @@ var consoleOptions = {
   console: false,
   alert: false,
 };
+const toggleReplConsole = atom.workspace.toggleReplConsole || 'console';
+
+if (toggleReplConsole === 'off') {
+  consoleOptions.console = false;
+  consoleOptions.alert = false;
+} else if (toggleReplConsole === 'console') {
+  consoleOptions.console = true;
+  consoleOptions.alert = false;
+} else if (toggleReplConsole === 'alert') {
+  consoleOptions.console = false;
+  consoleOptions.alert = true;
+}
 
 import { CompositeDisposable } from 'atom';
 const { exec } = require('child_process');
@@ -54,7 +66,9 @@ export default {
     let grammerName = editor.getGrammar().name;
 
     // Open dev tools console
-    remote.BrowserWindow.getFocusedWindow().openDevTools();
+    if (toggleReplConsole === 'console') {
+      remote.BrowserWindow.getFocusedWindow().openDevTools();
+    }
 
     let validGrammers = ['Ruby', 'JavaScript', 'Python', 'PHP', 'Go', 'Shell Script', 'JSON'];
 
@@ -119,6 +133,10 @@ export default {
       this.runCommand(command);
     } else {
       console.log('Finished executing code via REPL Console');
+    }
+
+    if (toggleReplConsole === 'alert') {
+      atom.notifications.add('DONE');
     }
   }
 };

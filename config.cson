@@ -298,6 +298,7 @@
       "atom-html-preview"
       "remote-ftp"
       "ftp-remote-edit-plus"
+      "markdown-preview-enhanced"
     ]
     restorePreviousWindowsOnStart: "always"
     simpleFullScreenWindows: true
@@ -328,6 +329,7 @@
   "git-menu":
     confirmationDialogs:
       "add-to-last-commit": false
+      "discard-changes": false
       "pull-all": false
       "push-all": false
       "stage-changes": false
@@ -348,8 +350,14 @@
     largeFileLineCount: 50000
     longLineLength: 20000
     panelHeight: 300
+  "markdown-preview":
+    breakOnSingleNewline: true
   "markdown-preview-enhanced":
+    enableExtendedTableSyntax: true
+    enableTypographer: true
+    imageDropAction: "insert relative path"
     openPreviewPaneAutomatically: false
+    singlePreview: false
   "one-dark-ui":
     hideDockButtons: true
     stickyHeaders: false
