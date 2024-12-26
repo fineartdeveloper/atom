@@ -33,6 +33,12 @@
 
 
 {
+  ".platform-darwin atom-workspace": {
+    "shift-cmd-C": "unset!"
+    "shift-cmd-c": "unset!"
+    "shift-ctrl-alt-cmd-c": "color-picker:open"
+  }
+
   ".platform-darwin, body": {
     "ctrl-alt-cmd-/": "window:toggle-left-dock"
     "alt-cmd-/": "window:toggle-right-dock"

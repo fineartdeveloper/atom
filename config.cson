@@ -162,6 +162,13 @@
     backspaceTriggersAutocomplete: true
     enableExtendedUnicodeSupport: true
     minimumWordLength: 1
+  "chrome-color-picker":
+    General:
+      showButtons: true
+  "color-picker":
+    alphaChannelAlways: true
+    preferredFormat: "HEX"
+    uppercaseColorValues: true
   core:
     allowPendingPaneItems: false
     audioBeep: false
@@ -224,6 +231,7 @@
       "language-toml"
       "open-on-github"
       "package-generator"
+      "chrome-color-picker"
     ]
     packagesWithKeymapsDisabled: [
       "advanced-open-file"
@@ -361,6 +369,30 @@
   "one-dark-ui":
     hideDockButtons: true
     stickyHeaders: false
+  pigments:
+    autocompleteScopes: [
+      ".source.json"
+      ".source.css"
+      ".source.css.less"
+      ".source.sass"
+      ".source.css.scss"
+      ".source.stylus"
+    ]
+    autocompleteSuggestionsFromValue: true
+    delayBeforeScan: 200
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+    filetypesForColorWords: [
+      "css"
+      "less"
+      "styl"
+      "stylus"
+      "sass"
+      "scss"
+      "json"
+    ]
+    sortPaletteColors: "by color"
+    traverseIntoSymlinkDirectories: true
   "project-manager":
     sortBy: "title"
   "remote-ftp":
