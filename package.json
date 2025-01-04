@@ -1,8 +1,13 @@
 {
   "dependencies": {
+    "color": "^4.2.3",
+    "colorjs.io": "^0.5.2",
+    "colors": "^1.4.0",
     "fs-extra": "^10.0.0",
+    "hex-color-to-color-name": "^1.0.2",
     "jquery": "^3.6.0",
     "jQuery": "^1.7.4",
+    "kleur": "^4.1.5",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
     "underscore-plus": "^1.7.0"
